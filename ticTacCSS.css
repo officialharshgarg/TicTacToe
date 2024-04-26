@@ -1,0 +1,103 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+h1 {
+  margin-top: 14px;
+  font-weight: 100px;
+  font-size: 7vmin;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  color: #342a21;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #e98259;
+  color: white;
+  text-align: center;
+}
+.game {
+  height: 69vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  height: 18vmin;
+  width: 17vmin;
+  background-color: #2d3055;
+  color: #cbb3bf;
+  font-size: 11vmin;
+  border: none;
+  border-radius: 10%;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+}
+.box:hover {
+  color: aliceblue;
+}
+
+.container {
+  height: 20vmin;
+  width: 70vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 2vmin;
+}
+
+#reset {
+  height: 6vmin;
+  width: 14vmin;
+  text-align: center;
+  background-color: darkgrey;
+  color: black;
+  font-size: 2.5vmin;
+  border: black 0.5px solid;
+  border-radius: 10vmin;
+}
+#reset:hover {
+  background-color: red;
+  color: beige;
+}
+
+#msg {
+  color: #2c1320;
+  font-size: 10vmin;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 1.4vmin;
+}
+.msg-container {
+  height: 14vmin;
+  margin-bottom: 9vmin;
+}
+.hide {
+  visibility: hidden;
+  position: absolute;
+}
+
+#new-game {
+  height: 7vmin;
+  width: 16vmin;
+  text-align: center;
+  background-color: darkgrey;
+  color: black;
+  font-size: 2.2vmin;
+  font-style: oblique;
+  font-weight: 600;
+  border: black 0.5px solid;
+  border-radius: 10vmin;
+}
+#new-game:hover {
+  background-color: lightgreen;
+  color: #342a21;
+}
+
+.winBg{
+  background-image: url(winnerBg.png);
+  background-size: cover;
+  visibility: 90%;
+}
